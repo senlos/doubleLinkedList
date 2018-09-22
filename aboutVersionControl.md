@@ -43,3 +43,5 @@ It's ok to change or edit files content on website end. What you have changed ne
 Undo commit is ok, where brings you back.
 
 I think its still some problem. After fetch, what I have done on web didn't appear locally in Atom. But luckily changes can be seen in github desktop. github desktop can show the difference, but can't edit. where atom can edit, but did't indicate the changes. Maybe can just edit it in Atom. Changes saved will appear in github desktoop verion, while Atom shows a unstable copy.
+
+Commmit action will be same between atom and GHDV(github desktop version).
