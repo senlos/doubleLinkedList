@@ -27,3 +27,13 @@ It's easy to create a second branch. But here comes a core problem you haven't u
 If its a new branch, you can publish it. After that I can check it on the website.
 
 I can directly change the content, then commit and finish all operation. Because I owned the master branch and change on it directly.
+
+After I modify locally, should I then push it? I realize that may cause some conflict or overwrite.
+
+A comparison should be held between to different branches.
+
+Since it didn't mention about fetch but push right away, let's try it.
+
+Luckily, it comes out an error. It cues "The repository has been updated since you last pulled. Try pulling before pushing." Also notice that there is a force push option. Maybe consider later.
+
+I try pull, but it cause another error and refuse me. Because it seems like some problem in version control. Here is the online version and local version conflict. With the same branch, say master. If after a local push, then another changes commit happen on web. After that I change locally and try to make push. Here comes to the error. No matter pull or push cause error warning.
