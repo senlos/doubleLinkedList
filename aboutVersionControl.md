@@ -21,3 +21,5 @@ After I enter this sentence and save the file, the file name directly change int
 Modify is define as some hierarchy. If a file is changed, its name turns yellow. And look in detail, how the changes of content represent.
 
 Changes are based on lines. New line shows in green, and removed line shows in red. If a line is changed, old content shows in red, and new content shows in green. In other word, yellow color is not used inside file.
+
+It's ok to change or edit files content on website end. What you have changed need a commit as well.
