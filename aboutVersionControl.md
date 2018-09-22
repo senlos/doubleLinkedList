@@ -37,7 +37,7 @@ Since it didn't mention about fetch but push right away, let's try it.
 Luckily, it comes out an error. It cues "The repository has been updated since you last pulled. Try pulling before pushing." Also notice that there is a force push option. Maybe consider later.
 
 I try pull, but it cause another error and refuse me. Because it seems like some problem in version control. Here is the online version and local version conflict. With the same branch, say master. If after a local push, then another changes commit happen on web. After that I change locally and try to make push. Here comes to the error. No matter pull or push cause error warning.
-=======
+
 It's ok to change or edit files content on website end. What you have changed need a commit as well.
 
-Undo commit is ok, where brings you back.
+Undo commit is ok, where brings you back. Try to delete unwanted format.
