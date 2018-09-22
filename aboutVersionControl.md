@@ -21,3 +21,7 @@ After I enter this sentence and save the file, the file name directly change int
 Modify is define as some hierarchy. If a file is changed, its name turns yellow. And look in detail, how the changes of content represent.
 
 Changes are based on lines. New line shows in green, and removed line shows in red. If a line is changed, old content shows in red, and new content shows in green. In other word, yellow color is not used inside file.
+
+Here, I try commit, but not push yet. Then change to branch to slave. Notice that publish instead of push. Means that it's empty.
+
+Because I have switched. The changes after maybe save on another branch.
