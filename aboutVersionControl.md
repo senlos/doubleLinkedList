@@ -40,4 +40,6 @@ I try pull, but it cause another error and refuse me. Because it seems like some
 
 It's ok to change or edit files content on website end. What you have changed need a commit as well.
 
-Undo commit is ok, where brings you back. Try to delete unwanted format.
+Undo commit is ok, where brings you back.
+
+I think its still some problem. After fetch, what I have done on web didn't appear locally in Atom. But luckily changes can be seen in github desktop. github desktop can show the difference, but can't edit. where atom can edit, but did't indicate the changes. Maybe can just edit it in Atom. Changes saved will appear in github desktoop verion, while Atom shows a unstable copy.
