@@ -22,6 +22,34 @@ Modify is define as some hierarchy. If a file is changed, its name turns yellow.
 
 Changes are based on lines. New line shows in green, and removed line shows in red. If a line is changed, old content shows in red, and new content shows in green. In other word, yellow color is not used inside file.
 
+It's easy to create a second branch. But here comes a core problem you haven't understand: how different branches be exist at the same time locally.
+
+If its a new branch, you can publish it. After that I can check it on the website.
+
+I can directly change the content, then commit and finish all operation. Because I owned the master branch and change on it directly.
+
+After I modify locally, should I then push it? I realize that may cause some conflict or overwrite.
+
+A comparison should be held between to different branches.
+
+Since it didn't mention about fetch but push right away, let's try it.
+
+Luckily, it comes out an error. It cues "The repository has been updated since you last pulled. Try pulling before pushing." Also notice that there is a force push option. Maybe consider later.
+
+~~I try pull, but it cause another error and refuse me. Because it seems like some problem in version control. Here is the online version and local version conflict. With the same branch, say master. If after a local push, then another changes commit happen on web. After that I change locally and try to make push. Here comes to the error. No matter pull or push cause error warning.~~
+
+It seems misunderstand. What cause error is unsave changes. Pull or push require save before, preventing overwrite.
+
+It's ok to change or edit files content on website end. What you have changed need a commit as well.
+
+Undo commit is ok, where brings you back.
+
+I think its still some problem. After fetch, what I have done on web didn't appear locally in Atom. But luckily changes can be seen in github desktop. github desktop can show the difference, but can't edit. where atom can edit, but did't indicate the changes. Maybe can just edit it in Atom. Changes saved will appear in github desktoop verion, while Atom shows a unstable copy.
+
+Commmit action will be same between atom and GHDV(github desktop version).
+
+Branch switching must after save and commit, otherwise comes an error.
+
 Here, I try commit, but not push yet. Then change to branch to slave. Notice that publish instead of push. Means that it's empty.
 
 Because I have switched. The changes after maybe save on another branch.
