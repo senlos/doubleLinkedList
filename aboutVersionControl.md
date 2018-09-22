@@ -25,3 +25,5 @@ Changes are based on lines. New line shows in green, and removed line shows in r
 Here, I try commit, but not push yet. Then change to branch to slave. Notice that publish instead of push. Means that it's empty.
 
 Because I have switched. The changes after maybe save on another branch.
+
+It comes out like parallel universe.
